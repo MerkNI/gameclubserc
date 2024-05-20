@@ -1,13 +1,13 @@
 public class Game {
 
     private String title;
-    private int completionTime;
+    private int releaseYear;
     private Genre genre;
 
-    public Game(String aTitle, int aCompletionTime, Genre aGenre) {
+    public Game(String aTitle, int aReleaseYear, Genre aGenre) {
 
         this.title = aTitle;
-        this.completionTime = aCompletionTime;
+        this.releaseYear = aReleaseYear;
         this.genre = aGenre;
 
     }
@@ -17,9 +17,9 @@ public class Game {
         return genre;
     }
 
-    public int getCompletionTime() {
+    public int getReleaseYear() {
 
-        return this.completionTime;
+        return this.releaseYear;
 
     }
 
@@ -29,11 +29,11 @@ public class Game {
 
     }
 
-    public void showInfo(){
+    public void displayDetails(){
 
-        String gameInfo = this.getTitle() + ", " + this.getGenre() + " -completion time: " + this.completionTime + " hours";
+        String displayDetails = this.getTitle() + ", " + this.getGenre() + " -release year: " + this.releaseYear;
 
-        System.out.println(gameInfo);
+        System.out.println(displayDetails);
 
     }
 }

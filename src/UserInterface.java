@@ -52,15 +52,15 @@ public class UserInterface {
         System.out.println("Please enter the title of the game: ");
         String title = reader.getInput();
 
-        System.out.println("Please enter the completion time of the game: ");
+        System.out.println("Please enter the release year of the game: ");
         String userInput = reader.getInput();
-        int completionTime = 0;
+        int releaseYear = 0;
 
 
 
         try {
 
-            completionTime = Integer.parseInt(userInput);
+            releaseYear = Integer.parseInt(userInput);
 
         }
         catch (NumberFormatException exception) {

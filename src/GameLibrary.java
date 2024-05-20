@@ -18,7 +18,7 @@ public class GameLibrary {
 
         for(Game g : this.games){
 
-            g.showInfo();
+            g.displayDetails();
 
         }
     }
