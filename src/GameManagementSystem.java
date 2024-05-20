@@ -1,10 +1,10 @@
-public class UserInterface {
+public class GameManagementSystem {
 
     private InputReader reader;
 
-    private GameLibrary library;
+    private GameCollection library;
 
-    public UserInterface() {
+    public GameManagementSystem() {
 
         this.reader = new InputReader();
 

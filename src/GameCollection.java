@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-public class GameLibrary {
+public class GameCollection {
 
     private ArrayList<Game> games;
 
-    public GameLibrary() {
+    public GameCollection() {
 
         games = new ArrayList<Game>();
 
@@ -29,5 +29,4 @@ public class GameLibrary {
 
         return count;
     }
-
 }
