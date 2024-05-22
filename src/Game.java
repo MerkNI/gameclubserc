@@ -12,6 +12,8 @@ public class Game {
 
     }
 
+
+
     public Genre getGenre() {
 
         return genre;
@@ -31,7 +33,7 @@ public class Game {
 
     public void displayDetails(){
 
-        String displayDetails = this.getTitle() + ", " + this.getGenre() + " -release year: " + this.releaseYear;
+        String displayDetails = this.getTitle() + ", " + this.getGenre() +", " + "release year: " + this.getReleaseYear();
 
         System.out.println(displayDetails);
 

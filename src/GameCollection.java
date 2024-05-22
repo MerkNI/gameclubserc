@@ -9,24 +9,36 @@ public class GameCollection {
 
     }
 
-    public void addGames (Game g){
+    public void addGames( Game g){
 
         this.games.add(g);
     }
 
     public void showGames(){
 
-        for(Game g : this.games){
+        if (this.games.isEmpty())
+        {
+            System.out.println("No games have been added");
+        }
+        else {
+            for (Game g : this.games) {
 
-            g.displayDetails();
+                g.displayDetails();
+
+            }
 
         }
-    }
 
-    public int gameCount(){
+
+        }
+
+
+    public int gameCount() {
 
         int count = this.games.size();
 
         return count;
+
+
     }
 }
