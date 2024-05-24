@@ -118,10 +118,10 @@ public class GameManagementSystem {
                 genre = Genre.HORROR;
                 break;
             case 3:
-                genre = Genre.SCIFI;
+                genre = Genre.STRATEGY;
                 break;
             case 4:
-                genre = Genre.EXPLORATION;
+                genre = Genre.ADVENTURE;
                 break;
             case 5:
                 genre = Genre.RACING;
@@ -133,7 +133,7 @@ public class GameManagementSystem {
                 genre = Genre.RPG;
                 break;
             case 8:
-                genre = Genre.BUILDING;
+                genre = Genre.PLATFORM;
                 break;
             case 9:
                 genre = Genre.SURVIVAL;

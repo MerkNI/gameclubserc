@@ -1,11 +1,11 @@
 public enum Genre {
     FPS,
     HORROR,
-    SCIFI,
-    EXPLORATION,
+    STRATEGY,
+    ADVENTURE,
     RACING,
     MMO,
     RPG,
-    BUILDING,
+    PLATFORM,
     SURVIVAL
 }
