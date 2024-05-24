@@ -75,14 +75,16 @@ public class GameManagementSystem {
 
         Genre aGenre;
 
-        System.out.println("1. FPS");
+        System.out.println("Please select a genre: ");
+
+        System.out.println("1. ACTION");
         System.out.println("2. HORROR");
-        System.out.println("3. SCIFI");
-        System.out.println("4. EXPLORATION");
+        System.out.println("3. STRATEGY");
+        System.out.println("4. ADVENTURE");
         System.out.println("5. RACING");
         System.out.println("6. MMO");
         System.out.println("7. RPG");
-        System.out.println("8. BUILDING");
+        System.out.println("8. PLATFORM");
         System.out.println("9. SURVIVAL");
 
         userInput = reader.getInput();
@@ -107,12 +109,12 @@ public class GameManagementSystem {
 
         }
 
-        Genre genre = Genre.FPS;
+        Genre genre = Genre.ACTION;
 
         switch (genreNumber) {
 
             case 1:
-                genre = Genre.FPS;
+                genre = Genre.ACTION;
                 break;
             case 2:
                 genre = Genre.HORROR;

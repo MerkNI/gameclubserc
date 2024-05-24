@@ -1,5 +1,5 @@
 public enum Genre {
-    FPS,
+    ACTION,
     HORROR,
     STRATEGY,
     ADVENTURE,
